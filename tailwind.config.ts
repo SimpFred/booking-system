@@ -11,8 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customTeal: '#00695C',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+
 } satisfies Config;
