@@ -1,0 +1,14 @@
+/* Custom checkbox */
+.custom-checkbox:checked::before {
+  content: "✓";
+  color: #004d40;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
